@@ -27,7 +27,7 @@
 	//printf("%d\n", sizeof(double));
 
 	//short age = 20;// 向内存申请2个字节=16bit位，用来存放20
-	//float weight = 95.6f;//向内存申请4个字节=4^8bit位，用来存放95.6
+	//float weight = 95.6f;//向内存申请4个字节=4*8bit位，用来存放95.6
 
 	//return 0;//返回值为0
 //}
@@ -97,6 +97,7 @@ int main()
 	int sum = 0;//C语言语法规定，变量要定义在当前代码块的最前面
 	//输入数据 - 使用输入函数scanf
 	scanf_s("%d%d", &num1, &num2);//VS中使用scanf_s
+	//取地址操作符&
 	sum = num1 + num2;
 	printf("sum = %d\n", sum);
 	return 0;
