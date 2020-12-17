@@ -1,0 +1,2 @@
+D:\CodePractice\C-Code\test_12_17\Debug\test_12_17.exe
+D:\CodePractice\C-Code\test_12_17\Debug\test_12_17.pdb
